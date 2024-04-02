@@ -1,0 +1,4 @@
+{
+  "devCommand": "npm run dev",
+  "buildCommand": "num run build"
+}
