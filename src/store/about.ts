@@ -1,6 +1,13 @@
 import { Store } from '../core/heropy'
 
-export default new Store({
+interface State {
+  name: string
+  email: string
+  github: string
+  repository: string
+}
+
+export default new Store<State>({
   name: 'HARRY / KimGyuSang',
   email: 'tl9434@naver.com',
   github: 'https://github.com/HarryKim24',

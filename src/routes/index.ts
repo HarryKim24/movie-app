@@ -5,9 +5,9 @@ import About from './About'
 import NotFound from './NotFound'
 
 export default createRouter([
-  { path: '#/', component: Home},
-  { path: '#/movie', component: Movie},
-  { path: '#/about', component: About},
-  { path: '.*', component: NotFound}
+  { path: '#/', component: Home },
+  { path: '#/movie', component: Movie },
+  { path: '#/about', component: About },
+  { path: '.*', component: NotFound }
 ])
 
